@@ -1,0 +1,121 @@
+/*html  */
+body, html {
+    height: 100%;
+}
+
+.bg-nav {
+  background-color: #343c44;
+}
+
+a.text-secondary:hover{
+  color: white !important;
+}
+a.text-white:hover{
+  color: #f8c823 !important;
+}
+a.text-success:hover{
+  color:aquamarine !important;
+}
+/*html  */
+
+/* Logo */
+#logo{
+  height: 6vh !important;
+}
+/* Logo */
+
+/* The hero image */
+.hero-image {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("img/ba10.jpg");
+
+  height: 90%;
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.hero-text {
+  text-align: right;
+  position: absolute;
+  top: 50%;
+  left: 60%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+/* The hero image */
+
+/* Cards */
+.marginCards{
+  margin: 2rem 10rem;
+}
+
+.sizeCards {
+  width: 50px !important;
+}
+/* Cards */
+
+/* Cards */
+SubrayadoS1 {
+  border-bottom: 1px black;
+}
+
+/* Footer */
+.backgroundFooter{
+  background-color: #234a62; 
+}
+
+.backgroundFooter a{
+  color: white;
+  text-decoration: none;
+}
+
+/* Footer */
+
+.parrafoFinal33{
+  font-size: smaller;
+  color:  grey;
+}
+
+/* /* /* CELULAR */
+/* @media(max-width: 992px){
+  p.textoHero{
+      font-size:0 1rem;
+  }
+  .salto::before{
+      content:'\A';
+      white-space: unset;
+      }
+}
+
+@media (max-width: 576px) {
+  
+  .margenHero{
+      margin: 0 1rem;
+    }
+
+    .marginCards{
+      margin:0 5rem;
+  }
+
+  .textoS4{
+      font-size: smaller;
+  }
+    
+}
+
+@media (max-width: 446px) {
+  
+  .marginCards{
+      margin:0 1rem;
+  }
+    
+}
+
+@media (max-width: 400px) {
+  .textoS3{
+      font-size:12px;
+  }
+   
+} */ 
